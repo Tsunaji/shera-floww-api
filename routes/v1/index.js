@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
-var sales_order = require('./sales_order');
+var saleOrder = require('./saleOrder.route');
 
-router.use('/sales-order', sales_order);
+router.use('/sale-order', saleOrder);
 
 module.exports = router;

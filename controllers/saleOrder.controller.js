@@ -54,9 +54,9 @@ exports.validate = (method) => {
     switch (method) {
         case 'search': {
             return [
-                query('create_date', 'Invalid create date').isISO8601().optional(),
-                query('from_create_date', 'Invalid from create date').isISO8601().optional(),
-                query('cto_reate_date', 'Invalid to create date').isISO8601().optional(),
+                query('create_date', 'Invalid date').isISO8601().optional(),
+                query('from_create_date', 'Invalid date').isISO8601().optional(),
+                query('to_create_date', 'Invalid date').isISO8601().optional(),
             ]
         }
     }

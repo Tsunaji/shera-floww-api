@@ -8,7 +8,6 @@ module.exports = (sequelize, Sequelize) => {
         YourReference: Sequelize.STRING,
         CstPurchaseOrderNo: Sequelize.STRING,
         RequestedDeliveryDate: Sequelize.DATEONLY,
-        VKBUR: Sequelize.STRING,
         SaleItemCode: Sequelize.DECIMAL(6, 0),
         MaterialNo: Sequelize.STRING,
         SOLDTO_TITLE_NAME: Sequelize.STRING,

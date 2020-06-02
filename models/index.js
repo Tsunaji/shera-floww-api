@@ -8,7 +8,6 @@ const sequelize = new Sequelize(config.MSSQL_DATABASE, config.MSSQL_USER, config
         options: {
             useUTC: false,
             dateFirst: 1,
-            trustServerCertificate: false,
             encrypt: true
         }
     },
